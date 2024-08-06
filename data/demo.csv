@@ -1,0 +1,41 @@
+,Action,org:resource,concept:name,EventOrigin,EventID,lifecycle:transition,time:timestamp,case:LoanGoal,case:ApplicationType,case:concept:name,case:RequestedAmount
+0,Created,User_1,A_Create Application,Application,Application_652823628,complete,2016-01-01 09:51:15.304000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+1,statechange,User_1,A_Submitted,Application,ApplState_1582051990,complete,2016-01-01 09:51:15.352000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+2,Created,User_1,W_Handle leads,Workflow,Workitem_1298499574,schedule,2016-01-01 09:51:15.774000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+3,Deleted,User_1,W_Handle leads,Workflow,Workitem_1673366067,withdraw,2016-01-01 09:52:36.392000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+4,Created,User_1,W_Complete application,Workflow,Workitem_1493664571,schedule,2016-01-01 09:52:36.403000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+5,statechange,User_1,A_Concept,Application,ApplState_642383566,complete,2016-01-01 09:52:36.413000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+6,Obtained,User_17,W_Complete application,Workflow,Workitem_1875340971,start,2016-01-02 10:45:22.429000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+7,Released,User_17,W_Complete application,Workflow,Workitem_1452291795,suspend,2016-01-02 10:49:28.816000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+8,statechange,User_52,A_Accepted,Application,ApplState_99568828,complete,2016-01-02 11:23:04.299000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+9,Created,User_52,O_Create Offer,Offer,Offer_148581083,complete,2016-01-02 11:29:03.994000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+10,statechange,User_52,O_Created,Offer,OfferState_1514834199,complete,2016-01-02 11:29:05.354000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+11,statechange,User_52,O_Sent (mail and online),Offer,OfferState_2051164740,complete,2016-01-02 11:30:28.606000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+12,Deleted,User_52,W_Complete application,Workflow,Workitem_1007505836,ate_abort,2016-01-02 11:30:28.621000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+13,Created,User_52,W_Call after offers,Workflow,Workitem_1087320491,schedule,2016-01-02 11:30:28.629000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+14,Obtained,User_52,W_Call after offers,Workflow,Workitem_719909876,start,2016-01-02 11:30:28.631000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+15,statechange,User_52,A_Complete,Application,ApplState_946455804,complete,2016-01-02 11:30:28.633000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+16,Released,User_52,W_Call after offers,Workflow,Workitem_1447720177,suspend,2016-01-02 11:32:41.624000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+17,Obtained,User_11,W_Call after offers,Workflow,Workitem_1260329040,resume,2016-01-06 09:26:44.492000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+18,Released,User_11,W_Call after offers,Workflow,Workitem_1152103512,suspend,2016-01-06 09:27:08.472000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+19,Deleted,User_117,W_Call after offers,Workflow,Workitem_524990185,ate_abort,2016-01-13 13:10:55.138000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+20,Created,User_117,W_Validate application,Workflow,Workitem_781654767,schedule,2016-01-13 13:10:55.144000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+21,Obtained,User_117,W_Validate application,Workflow,Workitem_1641716416,start,2016-01-13 13:10:55.145000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+22,statechange,User_117,A_Validating,Application,ApplState_752879093,complete,2016-01-13 13:10:55.973000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+23,statechange,User_117,O_Returned,Offer,OfferState_1310330551,complete,2016-01-13 13:11:03.569000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+24,Released,User_117,W_Validate application,Workflow,Workitem_823786158,suspend,2016-01-13 13:15:39.110000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+25,Deleted,User_115,W_Validate application,Workflow,Workitem_392297123,ate_abort,2016-01-14 09:16:20.963000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+26,Created,User_115,W_Call incomplete files,Workflow,Workitem_835564623,schedule,2016-01-14 09:16:20.970000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+27,Obtained,User_115,W_Call incomplete files,Workflow,Workitem_2031858979,start,2016-01-14 09:16:20.972000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+28,statechange,User_115,A_Incomplete,Application,ApplState_390139749,complete,2016-01-14 09:16:20.974000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+29,Released,User_115,W_Call incomplete files,Workflow,Workitem_1628953525,suspend,2016-01-14 09:17:46.943000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+30,Obtained,User_2,W_Call incomplete files,Workflow,Workitem_943086771,resume,2016-01-14 11:27:28.536000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+31,Released,User_2,W_Call incomplete files,Workflow,Workitem_50564835,suspend,2016-01-14 11:30:19.089000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+32,Deleted,User_117,W_Call incomplete files,Workflow,Workitem_1225999065,ate_abort,2016-01-14 13:39:51.407000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+33,Created,User_117,W_Validate application,Workflow,Workitem_801031108,schedule,2016-01-14 13:39:51.492000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+34,Obtained,User_117,W_Validate application,Workflow,Workitem_2071763612,start,2016-01-14 13:39:51.494000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+35,statechange,User_117,A_Validating,Application,ApplState_1264188685,complete,2016-01-14 13:39:51.556000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+36,Released,User_117,W_Validate application,Workflow,Workitem_646578909,suspend,2016-01-14 13:54:49.680000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+37,statechange,User_115,O_Accepted,Offer,OfferState_1093322349,complete,2016-01-14 15:49:11.416000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+38,statechange,User_115,A_Pending,Application,ApplState_1179730815,complete,2016-01-14 15:49:11.420000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+39,Deleted,User_115,W_Validate application,Workflow,Workitem_2067229931,ate_abort,2016-01-14 15:49:11.423000+00:00,Existing loan takeover,New credit,Application_652823628,20000

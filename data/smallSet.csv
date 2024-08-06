@@ -1,0 +1,117 @@
+,Action,org:resource,concept:name,EventOrigin,EventID,lifecycle:transition,time:timestamp,case:LoanGoal,case:ApplicationType,case:concept:name,case:RequestedAmount
+0,Created,User_1,A_Create Application,Application,Application_652823628,complete,2016-01-01 09:51:15.304000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+1,statechange,User_1,A_Submitted,Application,ApplState_1582051990,complete,2016-01-01 09:51:15.352000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+2,Created,User_1,W_Handle leads,Workflow,Workitem_1298499574,schedule,2016-01-01 09:51:15.774000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+3,Deleted,User_1,W_Handle leads,Workflow,Workitem_1673366067,withdraw,2016-01-01 09:52:36.392000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+4,Created,User_1,W_Complete application,Workflow,Workitem_1493664571,schedule,2016-01-01 09:52:36.403000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+5,statechange,User_1,A_Concept,Application,ApplState_642383566,complete,2016-01-01 09:52:36.413000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+6,Obtained,User_17,W_Complete application,Workflow,Workitem_1875340971,start,2016-01-02 10:45:22.429000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+7,Released,User_17,W_Complete application,Workflow,Workitem_1452291795,suspend,2016-01-02 10:49:28.816000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+8,statechange,User_52,A_Accepted,Application,ApplState_99568828,complete,2016-01-02 11:23:04.299000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+9,Created,User_52,O_Create Offer,Offer,Offer_148581083,complete,2016-01-02 11:29:03.994000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+10,statechange,User_52,O_Created,Offer,OfferState_1514834199,complete,2016-01-02 11:29:05.354000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+11,statechange,User_52,O_Sent (mail and online),Offer,OfferState_2051164740,complete,2016-01-02 11:30:28.606000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+12,Deleted,User_52,W_Complete application,Workflow,Workitem_1007505836,ate_abort,2016-01-02 11:30:28.621000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+13,Created,User_52,W_Call after offers,Workflow,Workitem_1087320491,schedule,2016-01-02 11:30:28.629000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+14,Obtained,User_52,W_Call after offers,Workflow,Workitem_719909876,start,2016-01-02 11:30:28.631000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+15,statechange,User_52,A_Complete,Application,ApplState_946455804,complete,2016-01-02 11:30:28.633000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+16,Released,User_52,W_Call after offers,Workflow,Workitem_1447720177,suspend,2016-01-02 11:32:41.624000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+17,Obtained,User_11,W_Call after offers,Workflow,Workitem_1260329040,resume,2016-01-06 09:26:44.492000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+18,Released,User_11,W_Call after offers,Workflow,Workitem_1152103512,suspend,2016-01-06 09:27:08.472000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+19,Deleted,User_117,W_Call after offers,Workflow,Workitem_524990185,ate_abort,2016-01-13 13:10:55.138000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+20,Created,User_117,W_Validate application,Workflow,Workitem_781654767,schedule,2016-01-13 13:10:55.144000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+21,Obtained,User_117,W_Validate application,Workflow,Workitem_1641716416,start,2016-01-13 13:10:55.145000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+22,statechange,User_117,A_Validating,Application,ApplState_752879093,complete,2016-01-13 13:10:55.973000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+23,statechange,User_117,O_Returned,Offer,OfferState_1310330551,complete,2016-01-13 13:11:03.569000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+24,Released,User_117,W_Validate application,Workflow,Workitem_823786158,suspend,2016-01-13 13:15:39.110000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+25,Deleted,User_115,W_Validate application,Workflow,Workitem_392297123,ate_abort,2016-01-14 09:16:20.963000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+26,Created,User_115,W_Call incomplete files,Workflow,Workitem_835564623,schedule,2016-01-14 09:16:20.970000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+27,Obtained,User_115,W_Call incomplete files,Workflow,Workitem_2031858979,start,2016-01-14 09:16:20.972000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+28,statechange,User_115,A_Incomplete,Application,ApplState_390139749,complete,2016-01-14 09:16:20.974000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+29,Released,User_115,W_Call incomplete files,Workflow,Workitem_1628953525,suspend,2016-01-14 09:17:46.943000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+30,Obtained,User_2,W_Call incomplete files,Workflow,Workitem_943086771,resume,2016-01-14 11:27:28.536000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+31,Released,User_2,W_Call incomplete files,Workflow,Workitem_50564835,suspend,2016-01-14 11:30:19.089000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+32,Deleted,User_117,W_Call incomplete files,Workflow,Workitem_1225999065,ate_abort,2016-01-14 13:39:51.407000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+33,Created,User_117,W_Validate application,Workflow,Workitem_801031108,schedule,2016-01-14 13:39:51.492000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+34,Obtained,User_117,W_Validate application,Workflow,Workitem_2071763612,start,2016-01-14 13:39:51.494000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+35,statechange,User_117,A_Validating,Application,ApplState_1264188685,complete,2016-01-14 13:39:51.556000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+36,Released,User_117,W_Validate application,Workflow,Workitem_646578909,suspend,2016-01-14 13:54:49.680000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+37,statechange,User_115,O_Accepted,Offer,OfferState_1093322349,complete,2016-01-14 15:49:11.416000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+38,statechange,User_115,A_Pending,Application,ApplState_1179730815,complete,2016-01-14 15:49:11.420000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+39,Deleted,User_115,W_Validate application,Workflow,Workitem_2067229931,ate_abort,2016-01-14 15:49:11.423000+00:00,Existing loan takeover,New credit,Application_652823628,20000
+40,Created,User_1,A_Create Application,Application,Application_1691306052,complete,2016-01-01 10:16:11.500000+00:00,Home improvement,New credit,Application_1691306052,10000
+41,statechange,User_1,A_Submitted,Application,ApplState_284636842,complete,2016-01-01 10:16:11.549000+00:00,Home improvement,New credit,Application_1691306052,10000
+42,Created,User_1,W_Handle leads,Workflow,Workitem_831373279,schedule,2016-01-01 10:16:11.740000+00:00,Home improvement,New credit,Application_1691306052,10000
+43,Deleted,User_1,W_Handle leads,Workflow,Workitem_1299098074,withdraw,2016-01-01 10:17:31.573000+00:00,Home improvement,New credit,Application_1691306052,10000
+44,Created,User_1,W_Complete application,Workflow,Workitem_1703931302,schedule,2016-01-01 10:17:31.584000+00:00,Home improvement,New credit,Application_1691306052,10000
+45,statechange,User_1,A_Concept,Application,ApplState_421204851,complete,2016-01-01 10:17:31.594000+00:00,Home improvement,New credit,Application_1691306052,10000
+46,Obtained,User_17,W_Complete application,Workflow,Workitem_1746553641,start,2016-01-02 10:50:42.796000+00:00,Home improvement,New credit,Application_1691306052,10000
+47,Released,User_17,W_Complete application,Workflow,Workitem_1713535355,suspend,2016-01-02 10:51:27.582000+00:00,Home improvement,New credit,Application_1691306052,10000
+48,Obtained,User_38,W_Complete application,Workflow,Workitem_1495694398,resume,2016-01-02 10:53:34.108000+00:00,Home improvement,New credit,Application_1691306052,10000
+49,statechange,User_38,A_Accepted,Application,ApplState_525970231,complete,2016-01-02 10:59:44.735000+00:00,Home improvement,New credit,Application_1691306052,10000
+50,Created,User_38,O_Create Offer,Offer,Offer_1669071500,complete,2016-01-02 11:02:38.994000+00:00,Home improvement,New credit,Application_1691306052,10000
+51,statechange,User_38,O_Created,Offer,OfferState_680973097,complete,2016-01-02 11:02:40.442000+00:00,Home improvement,New credit,Application_1691306052,10000
+52,statechange,User_38,O_Sent (mail and online),Offer,OfferState_618588716,complete,2016-01-02 11:03:05.300000+00:00,Home improvement,New credit,Application_1691306052,10000
+53,Deleted,User_38,W_Complete application,Workflow,Workitem_28216352,complete,2016-01-02 11:03:05.324000+00:00,Home improvement,New credit,Application_1691306052,10000
+54,Created,User_38,W_Call after offers,Workflow,Workitem_81733400,schedule,2016-01-02 11:03:05.337000+00:00,Home improvement,New credit,Application_1691306052,10000
+55,Obtained,User_38,W_Call after offers,Workflow,Workitem_107760987,start,2016-01-02 11:03:05.343000+00:00,Home improvement,New credit,Application_1691306052,10000
+56,statechange,User_38,A_Complete,Application,ApplState_173433077,complete,2016-01-02 11:03:05.346000+00:00,Home improvement,New credit,Application_1691306052,10000
+57,Released,User_38,W_Call after offers,Workflow,Workitem_635624695,suspend,2016-01-02 11:09:15.653000+00:00,Home improvement,New credit,Application_1691306052,10000
+58,Obtained,User_11,W_Call after offers,Workflow,Workitem_1059415130,resume,2016-01-06 09:03:54.964000+00:00,Home improvement,New credit,Application_1691306052,10000
+59,Released,User_11,W_Call after offers,Workflow,Workitem_47243651,suspend,2016-01-06 09:04:21.232000+00:00,Home improvement,New credit,Application_1691306052,10000
+60,Deleted,User_119,W_Call after offers,Workflow,Workitem_1908827665,ate_abort,2016-01-07 09:40:08.551000+00:00,Home improvement,New credit,Application_1691306052,10000
+61,Created,User_119,W_Validate application,Workflow,Workitem_960318560,schedule,2016-01-07 09:40:08.558000+00:00,Home improvement,New credit,Application_1691306052,10000
+62,Obtained,User_119,W_Validate application,Workflow,Workitem_736976847,start,2016-01-07 09:40:08.560000+00:00,Home improvement,New credit,Application_1691306052,10000
+63,statechange,User_119,A_Validating,Application,ApplState_2031628358,complete,2016-01-07 09:40:09.412000+00:00,Home improvement,New credit,Application_1691306052,10000
+64,Released,User_119,W_Validate application,Workflow,Workitem_338353106,suspend,2016-01-07 09:49:11.840000+00:00,Home improvement,New credit,Application_1691306052,10000
+65,Obtained,User_30,W_Validate application,Workflow,Workitem_1522720538,resume,2016-01-07 11:34:12.366000+00:00,Home improvement,New credit,Application_1691306052,10000
+66,Released,User_30,W_Validate application,Workflow,Workitem_313764426,suspend,2016-01-07 11:34:27.025000+00:00,Home improvement,New credit,Application_1691306052,10000
+67,Obtained,User_68,W_Validate application,Workflow,Workitem_1377364007,resume,2016-01-07 13:17:02.426000+00:00,Home improvement,New credit,Application_1691306052,10000
+68,statechange,User_68,A_Denied,Application,ApplState_1181660825,complete,2016-01-07 13:29:49.671000+00:00,Home improvement,New credit,Application_1691306052,10000
+69,statechange,User_68,O_Refused,Offer,OfferState_1494429296,complete,2016-01-07 13:29:49.710000+00:00,Home improvement,New credit,Application_1691306052,10000
+70,Deleted,User_68,W_Validate application,Workflow,Workitem_72878931,complete,2016-01-07 13:29:49.725000+00:00,Home improvement,New credit,Application_1691306052,10000
+71,Created,User_1,A_Create Application,Application,Application_428409768,complete,2016-01-01 11:19:38.177000+00:00,Home improvement,New credit,Application_428409768,15000
+72,statechange,User_1,A_Submitted,Application,ApplState_105207793,complete,2016-01-01 11:19:38.235000+00:00,Home improvement,New credit,Application_428409768,15000
+73,Created,User_1,W_Handle leads,Workflow,Workitem_1185806608,schedule,2016-01-01 11:19:38.914000+00:00,Home improvement,New credit,Application_428409768,15000
+74,Deleted,User_1,W_Handle leads,Workflow,Workitem_835967796,withdraw,2016-01-01 11:20:37.391000+00:00,Home improvement,New credit,Application_428409768,15000
+75,Created,User_1,W_Complete application,Workflow,Workitem_755889823,schedule,2016-01-01 11:20:37.409000+00:00,Home improvement,New credit,Application_428409768,15000
+76,statechange,User_1,A_Concept,Application,ApplState_1727723699,complete,2016-01-01 11:20:37.422000+00:00,Home improvement,New credit,Application_428409768,15000
+77,Obtained,User_19,W_Complete application,Workflow,Workitem_62767814,start,2016-01-02 10:55:03.169000+00:00,Home improvement,New credit,Application_428409768,15000
+78,statechange,User_19,A_Accepted,Application,ApplState_504362841,complete,2016-01-02 11:02:44.472000+00:00,Home improvement,New credit,Application_428409768,15000
+79,Created,User_19,O_Create Offer,Offer,Offer_1209840642,complete,2016-01-02 11:05:15.942000+00:00,Home improvement,New credit,Application_428409768,15000
+80,statechange,User_19,O_Created,Offer,OfferState_942949889,complete,2016-01-02 11:05:17.204000+00:00,Home improvement,New credit,Application_428409768,15000
+81,statechange,User_19,O_Sent (mail and online),Offer,OfferState_253970058,complete,2016-01-02 11:06:53.268000+00:00,Home improvement,New credit,Application_428409768,15000
+82,Deleted,User_19,W_Complete application,Workflow,Workitem_2003414398,complete,2016-01-02 11:06:53.291000+00:00,Home improvement,New credit,Application_428409768,15000
+83,Created,User_19,W_Call after offers,Workflow,Workitem_1530416988,schedule,2016-01-02 11:06:53.310000+00:00,Home improvement,New credit,Application_428409768,15000
+84,Obtained,User_19,W_Call after offers,Workflow,Workitem_1340137029,start,2016-01-02 11:06:53.312000+00:00,Home improvement,New credit,Application_428409768,15000
+85,statechange,User_19,A_Complete,Application,ApplState_864110001,complete,2016-01-02 11:06:53.316000+00:00,Home improvement,New credit,Application_428409768,15000
+86,Released,User_19,W_Call after offers,Workflow,Workitem_1717804686,suspend,2016-01-02 11:07:21.200000+00:00,Home improvement,New credit,Application_428409768,15000
+87,Created,User_19,O_Create Offer,Offer,Offer_997411923,complete,2016-01-02 11:25:44.202000+00:00,Home improvement,New credit,Application_428409768,15000
+88,statechange,User_19,O_Created,Offer,OfferState_1967587147,complete,2016-01-02 11:25:45.416000+00:00,Home improvement,New credit,Application_428409768,15000
+89,statechange,User_19,O_Cancelled,Offer,OfferState_1893960455,complete,2016-01-02 11:26:06.088000+00:00,Home improvement,New credit,Application_428409768,15000
+90,statechange,User_19,O_Sent (mail and online),Offer,OfferState_600565321,complete,2016-01-02 11:26:19.140000+00:00,Home improvement,New credit,Application_428409768,15000
+91,Obtained,User_11,W_Call after offers,Workflow,Workitem_1081743155,resume,2016-01-06 09:24:20.694000+00:00,Home improvement,New credit,Application_428409768,15000
+92,Released,User_11,W_Call after offers,Workflow,Workitem_1371373781,suspend,2016-01-06 09:24:49.245000+00:00,Home improvement,New credit,Application_428409768,15000
+93,Deleted,User_116,W_Call after offers,Workflow,Workitem_1500398862,ate_abort,2016-01-13 08:57:21.302000+00:00,Home improvement,New credit,Application_428409768,15000
+94,Created,User_116,W_Validate application,Workflow,Workitem_426017595,schedule,2016-01-13 08:57:21.325000+00:00,Home improvement,New credit,Application_428409768,15000
+95,Obtained,User_116,W_Validate application,Workflow,Workitem_1121078170,start,2016-01-13 08:57:21.342000+00:00,Home improvement,New credit,Application_428409768,15000
+96,statechange,User_116,A_Validating,Application,ApplState_145257449,complete,2016-01-13 08:57:22.349000+00:00,Home improvement,New credit,Application_428409768,15000
+97,statechange,User_116,O_Returned,Offer,OfferState_836197344,complete,2016-01-13 09:08:14.217000+00:00,Home improvement,New credit,Application_428409768,15000
+98,Released,User_116,W_Validate application,Workflow,Workitem_1394551701,suspend,2016-01-13 09:14:02.550000+00:00,Home improvement,New credit,Application_428409768,15000
+99,Deleted,User_101,W_Validate application,Workflow,Workitem_2084533572,ate_abort,2016-01-13 12:19:05.156000+00:00,Home improvement,New credit,Application_428409768,15000
+100,Created,User_101,W_Call incomplete files,Workflow,Workitem_1388614442,schedule,2016-01-13 12:19:05.170000+00:00,Home improvement,New credit,Application_428409768,15000
+101,Obtained,User_101,W_Call incomplete files,Workflow,Workitem_1761470628,start,2016-01-13 12:19:05.172000+00:00,Home improvement,New credit,Application_428409768,15000
+102,statechange,User_101,A_Incomplete,Application,ApplState_572176202,complete,2016-01-13 12:19:05.175000+00:00,Home improvement,New credit,Application_428409768,15000
+103,Released,User_101,W_Call incomplete files,Workflow,Workitem_2100649407,suspend,2016-01-13 12:19:56.608000+00:00,Home improvement,New credit,Application_428409768,15000
+104,Obtained,User_34,W_Call incomplete files,Workflow,Workitem_40552916,resume,2016-01-13 14:02:49.347000+00:00,Home improvement,New credit,Application_428409768,15000
+105,Released,User_34,W_Call incomplete files,Workflow,Workitem_1289398961,suspend,2016-01-13 14:34:27.526000+00:00,Home improvement,New credit,Application_428409768,15000
+106,Obtained,User_34,W_Call incomplete files,Workflow,Workitem_849113076,resume,2016-01-13 14:46:34.388000+00:00,Home improvement,New credit,Application_428409768,15000
+107,Released,User_34,W_Call incomplete files,Workflow,Workitem_368244091,suspend,2016-01-13 14:46:59.441000+00:00,Home improvement,New credit,Application_428409768,15000
+108,Deleted,User_31,W_Call incomplete files,Workflow,Workitem_858139282,ate_abort,2016-01-13 16:01:21.189000+00:00,Home improvement,New credit,Application_428409768,15000
+109,Created,User_31,W_Validate application,Workflow,Workitem_225523018,schedule,2016-01-13 16:01:21.199000+00:00,Home improvement,New credit,Application_428409768,15000
+110,Obtained,User_31,W_Validate application,Workflow,Workitem_394720997,start,2016-01-13 16:01:21.201000+00:00,Home improvement,New credit,Application_428409768,15000
+111,statechange,User_31,A_Validating,Application,ApplState_1022298,complete,2016-01-13 16:01:21.274000+00:00,Home improvement,New credit,Application_428409768,15000
+112,Released,User_31,W_Validate application,Workflow,Workitem_679096434,suspend,2016-01-13 16:01:56.185000+00:00,Home improvement,New credit,Application_428409768,15000
+113,statechange,User_90,O_Accepted,Offer,OfferState_892473715,complete,2016-01-14 07:00:14.440000+00:00,Home improvement,New credit,Application_428409768,15000
+114,statechange,User_90,A_Pending,Application,ApplState_16917315,complete,2016-01-14 07:00:14.450000+00:00,Home improvement,New credit,Application_428409768,15000
+115,Deleted,User_90,W_Validate application,Workflow,Workitem_5585256,ate_abort,2016-01-14 07:00:14.468000+00:00,Home improvement,New credit,Application_428409768,15000
